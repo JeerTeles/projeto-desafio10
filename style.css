@@ -1,0 +1,30 @@
+@charset "UTF8";
+
+*{ /* Configurações globais*/
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+body{
+  text-align: justify ; 
+  background-image: linear-gradient(to right, #E08312, #945100); 
+}
+
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(62, 43, 22, 0.751) ; /* primeiro parametro é para o lado, o segundo é para baixo, terceiro quanto vai espalhar e o ultimo é ranparrêcia */
+    width: 600px;
+    padding: 10px;
+    margin: auto;  /* Sempre centraliza o contéudo impependente do tamanho da tela */
+}
+
+h1{
+ color: #045A85 ; 
+ text-align: center; 
+ text-shadow: 1px 1px 2px rgba(4, 90, 133, 0.974) ; 
+
+}
+
+h2{
+    color: #2EB9FF;
+}
