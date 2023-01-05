@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de imagem de fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         Body{
-            height: 100vh;
+           /*  height: 100vh;
             background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center center;
             background-repeat:  no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attacment
+            */
+            
+            background: black  url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width:  400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -28,6 +36,21 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deserunt doloremque repellat nisi dolor quaerat velit consequuntur a pariatur atque reprehenderit, aliquam distinctio! Temporibus amet, excepturi veniam possimus corrupti odio!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni eligendi praesentium deleniti id omnis? Explicabo nisi est facilis, distinctio tempora tenetur vitae temporibus saepe minima, at maiores! Deleniti, repudiandae distinctio.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa rerum quia officiis quos vitae obcaecati deserunt voluptates natus, porro totam nemo! Expedita, dolorem! Impedit beatae vel reiciendis rerum a totam.
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deserunt doloremque repellat nisi dolor quaerat velit consequuntur a pariatur atque reprehenderit, aliquam distinctio! Temporibus amet, excepturi veniam possimus corrupti odio!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni eligendi praesentium deleniti id omnis? Explicabo nisi est facilis, distinctio tempora tenetur vitae temporibus saepe minima, at maiores! Deleniti, repudiandae distinctio.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa rerum quia officiis quos vitae obcaecati deserunt voluptates natus, porro totam nemo! Expedita, dolorem! Impedit beatae vel reiciendis rerum a totam.
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deserunt doloremque repellat nisi dolor quaerat velit consequuntur a pariatur atque reprehenderit, aliquam distinctio! Temporibus amet, excepturi veniam possimus corrupti odio!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni eligendi praesentium deleniti id omnis? Explicabo nisi est facilis, distinctio tempora tenetur vitae temporibus saepe minima, at maiores! Deleniti, repudiandae distinctio.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa rerum quia officiis quos vitae obcaecati deserunt voluptates natus, porro totam nemo! Expedita, dolorem! Impedit beatae vel reiciendis rerum a totam.
+        </p>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deserunt doloremque repellat nisi dolor quaerat velit consequuntur a pariatur atque reprehenderit, aliquam distinctio! Temporibus amet, excepturi veniam possimus corrupti odio!
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni eligendi praesentium deleniti id omnis? Explicabo nisi est facilis, distinctio tempora tenetur vitae temporibus saepe minima, at maiores! Deleniti, repudiandae distinctio.
